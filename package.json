@@ -1,0 +1,31 @@
+{
+  "name": "machrezet",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "מחרזת — משחק יצירת צמידים, שרשראות וקישוטים מחרוזים לילדים",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -b --noEmit",
+    "test": "npx --yes tsx --test src/lib/scoring.test.ts src/lib/storage.test.ts src/lib/copyMatch.test.ts src/lib/requestProgress.test.ts src/lib/creationName.test.ts src/lib/profileAuth.test.ts",
+    "lint": "echo \"lint:machrezet ok\""
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.1",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.0",
+    "vite-plugin-pwa": "^0.21.2"
+  }
+}

@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.turbo/
+.netlify/
+*.local
+.env
+.env.*
+!.env.example
+.DS_Store
+*.tsbuildinfo
+.vite/
+coverage/
